@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*UDARA_MD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n`;
+            const sid = `*UDARA_MD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n WELLCOME TO UDARA_MD `;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await UDARA_MDPairWeb.sendMessage(user_jid, {
               image: {
@@ -129,6 +129,7 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
 
