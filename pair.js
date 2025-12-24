@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await UDARA_MDPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-UDARA_MD/Bot-Helper/refs/heads/main/autoimage/Bot%20UDARA_MD%20WP.jpg",
+                url: "https://raw.githubusercontent.com/udaralakmal2025-web/UDARA_MD03/refs/heads/main/images/Gemini_Generated_Image_t8tnint8tnint8tn.png",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
